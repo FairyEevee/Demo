@@ -1,28 +1,29 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
-layout: home
 
+layout: home
 hero:
-  name: "我的牛逼文档"
-  text: "一个牛逼文档"
-  tagline: 天天学习，天天进步
-  image: 
-    src: \傻猫.png
-    alt: 背景图片
+  name: "渐进式"
+  text: "JavaScript框架"
+  tagline: 易学易用，性能出色，适用于场景丰富的Web前端框架
   actions:
     - theme: brand
-      text: Markdown 实例
-      link: /markdown-examples
+      text: 快速上手
+      link: https://cn.vuejs.org/guide/introduction.html
     - theme: alt
-      text: API 实例
-      link: /api-examples
+      text: 安装
+      link: https://cn.vuejs.org/guide/quick-start.html
+      
 
 features:
-  - title: Feature A
-    details: 特征1的描述
-  - title: Feature B
+  - title: 特征 A 
+    icon: 🦀
+    details: 特征1的描述 
+  - title: 特征 B
+    icon: 🦀
     details: 特征2的描述
-  - title: Feature C
+  - title: 特征 C
+    icon: 🦀
     details: 特征3的描述
 ---
 
